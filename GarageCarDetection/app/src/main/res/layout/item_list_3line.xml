@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="88dp">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/type"
+            android:layout_width="@dimen/spacing_micro"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/poster"
+            android:layout_width="@dimen/list_image_width"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="@dimen/spacing_minor"
+            android:layout_marginLeft="@dimen/spacing_major"
+            android:layout_marginTop="@dimen/spacing_minor"
+            android:src="@drawable/lamborghini" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="72dp"
+            android:layout_marginRight="@dimen/spacing_major"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:lines="1"
+                android:text="Siêu thị Fivimart Đại La"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/range"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0973928584"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5 phút trước"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+</FrameLayout>

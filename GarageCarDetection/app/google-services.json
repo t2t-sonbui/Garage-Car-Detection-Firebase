@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1094856460596",
+    "firebase_url": "https://garagecardetector.firebaseio.com",
+    "project_id": "garagecardetector",
+    "storage_bucket": "garagecardetector.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094856460596:android:e38b00c0e1a73321",
+        "android_client_info": {
+          "package_name": "app.demo.garagecardetection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1094856460596-ae7ugvbu1f845o97tl3jo0485b34cb4f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.demo.garagecardetection",
+            "certificate_hash": "B8A3A91FA4745F6DFA943237C2F4FD4202268B4B"
+          }
+        },
+        {
+          "client_id": "1094856460596-mobikk6i89itikedpmhhqjfqdrhmr40b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjYsMBK2DaNLnRz1FE-UkrCey3pjeDTcE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1094856460596-mobikk6i89itikedpmhhqjfqdrhmr40b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

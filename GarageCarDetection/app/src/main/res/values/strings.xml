@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Garage Car Detector</string>
+    <string name="action_settings">Smartconfig</string>
+    <!--  Smartconfig-->
+    <string name="tvApSsidTitle">SSID: </string>
+    <string name="tvPasswordTitle">Password: </string>
+    <string name="switchIsSsidHiddenTitle">SSID is Hidden</string>
+    <string name="spinnerTaskResultCountTitle">Task result</string>
+    <string name="btnConfirmTitle">Confirm</string>
+    <string name="btnScanTitle">Scan QR</string>
+    <string name="smartconfig_title">ESP Smartconfig Information</string>
+    <string name="smartconfig_label">Enter wifi ssid and password for connection.</string>
+    <string name="smartconfig_verify_check_cd">Esptouch success</string>
+    <string name="no_wifi_title">Wifi Not Available</string>
+    <string name="no_wifi_message">Requires a wifi connection to communicate with the device.</string>
+</resources>
